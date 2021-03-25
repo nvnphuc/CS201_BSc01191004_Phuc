@@ -1,0 +1,75 @@
+h1, h2, h3, nav li {
+  font-family: 'Kiwi Maru', serif;
+
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+header .row {
+  background-color: #d7d7d7;
+  width: 100%;
+}
+header {
+  width: 100%;
+}
+.container-fluid {
+  padding: 0px !important;
+}
+.container{
+  padding: 0px !important;
+  margin: 0px !important;
+  max-width: 100%;
+}
+.carousel {
+  background-color: lightblue;
+  height:50vh;
+}
+.top-right {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-right i {
+  padding: 10px;
+  color: white;
+  border: 2px solid lightblue;
+  border-radius: 50%;
+  background-color: lightblue;
+}
+.carousel-item img{
+  height: 300px !important;
+  width: auto !important;
+}
+.carousel-caption h5 {
+  font-size: 2rem !important;
+  margin-bottom: 10%;
+}
+.second {
+  padding-left: 100px;
+  padding-top: 30px;
+}
+.text {
+  text-align: center;
+}
+.newtext{
+  text-align: center;
+  background-color: #f1f1f1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.carousel-multi-item {
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.carousel-multi-item img{
+  width: auto !important;
+  height: 300px !important;
+  padding-bottom: 20px;
+}
+
+.services{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1%;
+}
